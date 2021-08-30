@@ -1,4 +1,8 @@
+Notes:
+All my configuration is in this file
 
+Configuration of the following patches:
+ * blur-pixelated-screen
 --- a/config.def.h
 +++ b/config.def.h
 @@ -1,6 +1,6 @@
