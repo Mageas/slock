@@ -6,13 +6,13 @@
 
 ### **Helpers**
 
-I have made scripts to automate the process of creating/applying patches. The scripts can be found in my [dotfiles](https://gitlab.com/Mageas/dotfiles/-/tree/master/root/usr/bin).
+I have made scripts to automate the process of creating/applying patches. Scripts can be found in my [dotfiles](https://gitlab.com/Mageas/dotfiles).
 
-List and uses of the scripts:
-- **suckclean** Remove all the branches, but master.
-- **suckdiff** Create a diff file for each branch (You can add a header in `patches/headers`).
-- **suckload** Create git branch for each diff file.
-- **suckupdate** Load diff files, then make and clean the git repo.
+How to use helpers scripts:
+- **[suckupdate](https://gitlab.com/Mageas/dotfiles/-/blob/master/stow_root/scripts/usr/bin/suckupdate)** Build the suckless repository with your patches.
+- **[suckload](https://gitlab.com/Mageas/dotfiles/-/blob/master/stow_root/scripts/usr/bin/suckload)** Load your patches in separate git branches.
+- **[suckdiff](https://gitlab.com/Mageas/dotfiles/-/blob/master/stow_root/scripts/usr/bin/suckdiff)** Save your changes in the `patches` directory (You can add a header in `patches/headers`).
+- **[suckclean](https://gitlab.com/Mageas/dotfiles/-/blob/master/stow_root/scripts/usr/bin/suckclean)** Clean your repository.
 
 ### **Other**
 
